@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image and CSS</title>
+    <style>
+      #spider{
+        border-radius: 250px;
+      }
+      #thumbnail{
+        width: 150px;
+        border-radius: 4px;
+        padding: 5px;
+        border: 1px solid #ddd;
+      }
+      #responsive{
+        max-width: 300%;
+        height: auto;
+      }
+      #center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      div.polaroid{
+        width: 50%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+        margin-bottom: 25px;
+      }
+      div.container{
+        text-align: center;
+        padding: 10px 20px;
+      }
+      #transparent{
+        opacity: .5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="polaroid">
+  <img src="Pics/Bully.jpg" style="width: 100%"/>
+  <div class="container">
+    "I'm gonna put some dirt in your eye." - Bully Maguire
+    </div>
+  </div>
+  <img id="transparent" src="Pics/Bully.jpg" /><br/>
+  <img id="center" src="Pics/Bully.jpg" />
+  <img id="responsive" src="Pics/Bully.jpg" />
+  <img id="spider" src="Pics/Bully.jpg" />
+  <img id="thumbnail" src="Pics/Bully.jpg" />
+  </body>
+</html>
