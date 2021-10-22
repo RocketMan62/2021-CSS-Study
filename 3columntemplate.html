@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>3 Columns Template</title>
+    <style>
+      ul{list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        overflow: hidden;
+      }
+      li{
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+      li a{
+        display: block;
+        color: yellow;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover:not(.active){
+        background-color: #111;
+      }
+      .active{
+        background-color: #04AA6D;
+      }
+      .container{
+        color: black;
+        background-color: lightblue;
+        width: 80%;
+        margin: auto;
+      }
+      #header{
+        width: 100%;
+        height: 150px;
+        background-color: lightblue;
+        text-align: center;
+        verticle-align: middle;
+        font-size: 75px;
+        font-weight: bold;
+
+      }
+      #sidebar{
+        float: right;
+        width: 25%;
+        background-color: pink;
+      }
+      #content{
+        float: left;
+        width: 50%;
+        background-color: antiquewhite;
+        padding: 15px;
+        height: inherit;
+      }
+      #sidebar2{
+      background-color: lightgray;
+      padding: 15px;
+      height: auto;
+      }
+      .row:after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+      #footer{
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;
+        background-color: lightgreen;
+      }
+      div#footer a{
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+      <div id="header">
+      Summoning the Dark Lord 101
+      </div>
+      <div class="row">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">How to summon the Dark Lord</a></li>
+          <li><a href="#">About summoning the Dark Lord</a></li>
+          <li><a href="#">Socials</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div id="sidebar">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/>Cheap Ads<br/>Cheap Ads<br/>
+      </div>
+      <div id="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+        <div id="sidebar2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br/><br/> Expensive Ads<br/>Expensive Ads<br/>
+        </div>
+    </div>
+    <div class="row">
+      <div id="footer">
+        Copyright 2021 | Web Design | <a href="malito:ethan.hammerstedt@vtsd.com"> ethan.hammerstedt@vtsd.com</a> | Wiley Coyete Publishing 2021
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>
