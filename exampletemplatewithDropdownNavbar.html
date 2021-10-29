@@ -18,14 +18,14 @@
       text-decoration: none;
     }
 
-    .navbar a:hover, .dropdown:hover .dropButton{
+    .navbar a:hover, .dropdownSocial:hover .dropButtonSocial{
       background-color: gray;
     }
-    .dropdown{
+    .dropdownSocial{
       float: left;
       overflow: hidden;
     }
-    .dropdown .dropButton{
+    .dropdownSocial .dropButtonSocial{
       font-size: 17px;
       border: none;
       outline: none;
@@ -35,7 +35,7 @@
       font-family: inherit;
       margin:0;
     }
-    .dropdownContent{
+    .dropdownContentSocial{
       display: none;
       position: absolute;
       background-color: #f9f9f9;
@@ -43,7 +43,7 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
-    .dropdownContent a{
+    .dropdownContentSocial a{
       float: none;
       color: black;
       padding: 12px 16px;
@@ -51,10 +51,10 @@
       display: block;
       text-align: left;
     }
-    .dropdown:hover .dropdownContent{
+    .dropdownSocial:hover .dropdownContentSocial{
       display: block;
     }
-    .dropdownContent a:hover{
+    .dropdownContentSocial a:hover{
       background-color: #ddd;
     }
       .container{
@@ -112,11 +112,11 @@
           <a href="#">Home</a>
           <a href="#">Bee Movie</a>
           <a href="#">About</a>
-            <div class="dropdown">
-              <button class="dropButton">Socials
-                <i class="fa fa-caret-down"></i>
+            <div class="dropdownSocial">
+              <button class="dropButtonSocial">Socials
+                <i class="fa fa-caret-downSocial"></i>
               </button>
-              <div class="dropdownContent">
+              <div class="dropdownContentSocial">
                 <a href="#">Snapchat</a>
                 <a href="#">Instagram</a>
                 <a href="#">Twitter</a>
